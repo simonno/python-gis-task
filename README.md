@@ -3,19 +3,10 @@
 ![docker](https://img.shields.io/badge/-Docker-orange)
 ![GIS](https://img.shields.io/badge/-GIS-blue)
 
-## Helpful links
-To submit your application, please put your results into this [form](https://forms.gle/Uj7jtPXQqpVVDB86A)
-Feel free to ask questions [here](https://app.sli.do/event/gqUbu9yWGk9xtNN5w6YHpw)
-
-## Overiview
-GIS is Geospatial Information Systems. 
-It's acceptable that you will learn it later.
-
 ## Task
 You have to develop a streets colouring algorithm using python3 and create a really simple web server where user can attach a file which should be processed.
 
 ## Requirements:
-- Web site has to accept .zip archive with .shp file and other files required to read .shp (like .shx, .sbx, etc.)
 - Server has to return generated image in base64 
 - Solution has to generate images large enough to distinguish lines 
 - Your repo with solution should contain file with explanation of how your algorithm works (it can be added to README.md with section Explanation)
