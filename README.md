@@ -4,7 +4,7 @@
 ![GIS](https://img.shields.io/badge/-GIS-blue)
 
 ## Task
-You have to develop a streets colouring algorithm using python3 and create a really simple web server where user can attach a file which should be processed.
+You have to develop a streets colouring algorithm using python3 and create a really simple web server where user can attach a file which should be processed. Your algorithm should paint lines in the same colour when you think it is a single street.
 
 ## Requirements:
 - Server has to return generated image in base64 
