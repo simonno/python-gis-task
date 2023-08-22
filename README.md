@@ -17,11 +17,11 @@ You have to develop a streets colouring algorithm using python3. Your algorithm 
 - Just randomly colouring lines
 
 ## Examples
-**Initial image**
+### Initial image
 ![Initial data](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/initial.png)
-**Possible accepted solution**
+### Possible accepted solution
 Possible generated output of the solution. Some of different lines were occasionaly colourized the same color.
 ![Sample output1](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/processed-solid.png)
-**Possible accepted solution**
+### Possible accepted solution
 Possible generated output, but lines have also different line styles.
 ![Sample output2](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/processed.png)
