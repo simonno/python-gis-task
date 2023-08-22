@@ -1,3 +1,5 @@
+**Carefully read task and please check the examples of output in the end of the description**
+
 ## Task
 You have to develop a streets colouring algorithm using python3. Your algorithm should paint lines in the same colour when you think it is a single street.
 1. You don't have to match coordinates with streets from real world. Those streets were taken just for example.
@@ -14,10 +16,15 @@ You have to develop a streets colouring algorithm using python3. Your algorithm 
 ## Hints
 - For plotting purpose you can use 'matplotlib'
 
+## What is not acceptable
+- Just randomly colouring lines
+
 ## Examples
-Sample input (but multilines are splitted into simple lines).
+**Initial image**
 ![Initial data](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/initial.png)
-Possible generated output of the solution. Lines are randomly colourized. But some of different lines were occasionaly colourized the same color.
+**Possible accepted solution**
+Possible generated output of the solution. Some of different lines were occasionaly colourized the same color.
 ![Sample output1](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/processed-solid.png)
+**Possible accepted solution**
 Possible generated output, but lines have also different line styles.
 ![Sample output2](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/processed.png)
