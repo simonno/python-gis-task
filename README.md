@@ -1,4 +1,4 @@
-**Carefully read task and please check the examples of output in the end of the description**
+**Carefully read the task and please check the examples of output in the end of the description**
 
 ## Task
 You have to develop a streets colouring algorithm using python3. Your algorithm should paint lines in the same colour when you think it is a single street.
