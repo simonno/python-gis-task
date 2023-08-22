@@ -10,7 +10,7 @@ You have to develop a streets colouring algorithm using python3. Your algorithm 
 ## Requirements:
 - Don't fork this repo, just create your own.
 - Attach result of your solution to repo. Just put an image into repository and name it "solution.png"
-- Solution has to generate images large enough to distinguish lines 
+- Generated image size: 3000x3000px
 - Your repo with solution should contain file with explanation of how your algorithm works (it can be added to README.md with section Explanation)
 
 ## What is not acceptable
