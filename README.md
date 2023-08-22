@@ -1,11 +1,21 @@
 **Carefully read the task and please check the examples of output in the end of the description**
 
 ## Task
-You have to develop a streets colouring algorithm using python3. Your algorithm should paint lines in the same colour when you think it is a single street.
+You have to develop a streets colouring algorithm using python3. Your algorithm should paint lines in the same colour when you think it is a **single street**.
 1. You don't have to match coordinates with streets from real world. Those streets were taken just for example.
-2. Don't use any 3-rd party services, you don't need them.
+2. You **CAN** use any 3-rd party libraries, but you **CAN'T** use 3-rd party services.
 3. Create a solution just based on the information in the file from sample directory.
 4. It's an just an algorithimic task.
+5. What is a street? You have to tailor a best-fitting algorithm which will result as you think to best results of trying to be 
+
+## Definition of a "Single Street":
+
+A "single street" is a continuous line segment without interruptions. Your task is to decide when multiple line segments should be regarded as one continuous street. Consider:
+
+**Continuity:** Roads, even when changing direction, remain unbroken. Determine what might interrupt a street's continuity.
+
+**Crossroads:** At intersections, some lines might belong to the same street. Evaluate the angles between intersecting segments to help deduce this.
+Rely on patterns in the sample data, as specific geoinformation isn't provided. Use your creativity.
 
 ## Requirements:
 - Don't fork this repo, just create your own.
