@@ -13,9 +13,6 @@ You have to develop a streets colouring algorithm using python3. Your algorithm 
 - Solution has to generate images large enough to distinguish lines 
 - Your repo with solution should contain file with explanation of how your algorithm works (it can be added to README.md with section Explanation)
 
-## Hints
-- For plotting purpose you can use 'matplotlib'
-
 ## What is not acceptable
 - Just randomly colouring lines
 
