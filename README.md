@@ -1,37 +1,39 @@
-**Carefully read the task and please check the examples of output in the end of the description**
+# Task Description
 
-## Task
-You have to develop a streets colouring algorithm using python3. Your algorithm should paint lines in the same colour when you think it is a **single street**.
-1. You don't have to match coordinates with streets from real world. Those streets were taken just for example.
-2. You **CAN** use any 3-rd party libraries, but you **CAN'T** use 3-rd party services.
-3. Create a solution just based on the information in the file from sample directory.
-4. It's an just an algorithimic task.
-5. What is a street? You have to tailor a best-fitting algorithm which will result as you think to best results of trying to be 
+**Carefully read the task and please check the examples of output at the end of the description.**
 
-## Definition of a "Single Street":
+## 🤓 Task
+You are tasked with developing a street colouring algorithm using Python3. Your algorithm should color lines in the same color when perceived as a **single street**.
 
-A "single street" is a continuous line segment without interruptions. Your task is to decide when multiple line segments should be regarded as one continuous street. Consider:
+1. You don't need to match coordinates with real-world streets; the streets provided are purely examples.
+2. You **CAN** utilize third-party libraries, but **CAN'T** employ third-party services.
+3. The solution should solely be based on the information in the file from the sample directory.
+4. This is primarily an algorithmic task.
+5. How to determine a street? Craft an algorithm that, in your opinion, yields the most accurate representation of distinct streets.
 
-**Continuity:** Roads, even when changing direction, remain unbroken. Determine what might interrupt a street's continuity.
+## ❓ Definition of a "Single Street"
+A "single street" is an uninterrupted line segment. Determine when multiple line segments can be considered as one continuous street. Consider:
 
-**Crossroads:** At intersections, some lines might belong to the same street. Evaluate the angles between intersecting segments to help deduce this.
-Rely on patterns in the sample data, as specific geoinformation isn't provided. Use your creativity.
+- **Continuity:** Roads, despite changing direction, are continuous. Think on what could disrupt a street's flow.
+- **Crossroads:** At junctions, certain line segments might be part of the same street. Analyze the angles between intersecting lines for insights. Base your decisions on the patterns observed in the sample data, keeping in mind that specific geoinformation is absent. Be creative.
 
-## Requirements:
-- Don't fork this repo, just create your own.
-- Attach result of your solution to repo. Just put an image into repository and name it "solution.png"
-- Generated image size: 3000x3000px
-- Your repo with solution should contain file with explanation of how your algorithm works (it can be added to README.md with section Explanation)
+## ⚠️ Requirements
+- Instead of forking this repository, create your own.
+- Attach the result of your solution to your repo. Place an image in the repository and name it "solution.png".
+- The image's dimensions should be 3000x3000px.
+- Your repository should include a file detailing how your algorithm operates. This can be added to the README.md under the "Explanation" section.
 
-## What is not acceptable
-- Just randomly colouring lines
+## ❌ What is not acceptable
+- Randomly coloring the lines without logic.
 
-## Examples
-### Initial image
+## 🤔 Examples
+### ℹ️ Initial image
 ![Initial data](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/initial.png)
-### Possible accepted solution
-Possible generated output of the solution. Some of different streets were occasionaly colourized the same color.
+
+### ✅ Possible accepted solution
+Generated output where different streets might occasionally have the same color.
 ![Sample output1](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/processed-solid.png)
-### Possible accepted solution
-Possible generated output, but lines have also different line styles.
+
+### ✅ Another possible accepted solution
+Generated output with varied line styles.
 ![Sample output2](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/processed.png)
