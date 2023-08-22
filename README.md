@@ -30,7 +30,7 @@ Rely on patterns in the sample data, as specific geoinformation isn't provided. 
 ### Initial image
 ![Initial data](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/initial.png)
 ### Possible accepted solution
-Possible generated output of the solution. Some of different lines were occasionaly colourized the same color.
+Possible generated output of the solution. Some of different streets were occasionaly colourized the same color.
 ![Sample output1](https://raw.githubusercontent.com/zakhar-bozhok-jito/jun-python-gis-test-task/master/out-examples/processed-solid.png)
 ### Possible accepted solution
 Possible generated output, but lines have also different line styles.
