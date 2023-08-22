@@ -4,7 +4,7 @@
 You have to develop a streets colouring algorithm using python3. Your algorithm should paint lines in the same colour when you think it is a single street.
 1. You don't have to match coordinates with streets from real world. Those streets were taken just for example.
 2. Don't use any 3-rd party services, you don't need them.
-3. Create a solution just based on the information in the file.
+3. Create a solution just based on the information in the file from sample directory.
 4. It's an just an algorithimic task.
 
 ## Requirements:
